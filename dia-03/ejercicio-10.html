@@ -1,0 +1,44 @@
+<!--Crea una galería de imágenes simple con <div> y estilo de columnas.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de imagenes</title>
+    <link rel="stylesheet" href="Galeria.css">
+</head>
+<body>
+    <style>
+        h1{
+           background-color: blueviolet; 
+        }
+        div{
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        div img{
+            width: 300px;
+            height: 200px;
+            box-shadow: 4px 7px 7px 0px coral;
+            transition: 400ms;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 13px;
+            border: 2px solid;
+        }
+        div img :hover{
+            filter: grayscale(1);
+            transform: scale(1,03);
+        }
+    </style>
+    <h1>Galeria de imagenes.</h1>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ630Mucmiqqnqm_QKfeX2OoUrfCubszdNHg&s" alt="Imagen 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFPiayefe_J3O7rFH0DKCTpVLWMdABem2yIBc_EwA_Fy0tVpFamIJSOZsqisXPonwZFQ&usqp=CAU" alt="Imagen 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SIVigpZ0qpSkMT-V7zl-6jM6Putr3v_O4PmJJQVtz6QJdcWjpzgsOZ1x31qH-lO7UiQ&usqp=CAU" alt="Imagen 3">
+    </div>
+</body>
+</html>
