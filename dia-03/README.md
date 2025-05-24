@@ -1,14 +1,25 @@
-# 📅 Día 3 - Multimedia en HTML.
+# 📅 Día 3: Multimedia.
 
-## Descripción.
-Durante este tercer día se trabajó con contenido multimedia dentro de documentos HTML, integrando audio, video e imágenes con distintas configuraciones y atributos para mejorar la experiencia del usuario.
+## 📌 Actividades realizadas:
 
-## Contenido del ejercicio.
+- Inserción de un video local o de YouTube usando:
+  - `<video>` con controles.
+  - `<iframe>` para contenido de YouTube.
+- Inclusión de un audio con `<audio>` y controles de reproducción.
+- Adición de 3 imágenes con diferentes resoluciones y textos alternativos.
+- Inserción de un GIF animado con `<img>`.
+- Creación de un mapa de imagen usando:
+  - `<map>`
+  - `<area>` con al menos 2 áreas interactivas.
+- Inclusión de enlaces con atributos:
+  - `target="_blank"`
+  - `download`
+  - `title`
+- Simulación de una barra de menú horizontal con CSS en línea.
+- Aplicación de estilos en línea para cambiar color de fondo en varias secciones.
+- Uso de íconos de redes sociales con **Font Awesome**.
+- Creación de una galería de imágenes simple con `<div>` y estilo en columnas.
 
-- Se insertaron imágenes en diferentes posiciones de la página usando la etiqueta `<img>` y sus atributos `src`, `alt`, `width` y `height`.
-- Se incorporó un archivo de audio en formato `.mp3` usando la etiqueta `<audio>` con los atributos `controls`, `autoplay`, `loop` y `muted`.
-- Se añadió contenido de video con la etiqueta `<video>` incluyendo atributos como `controls`, `poster`, `autoplay`, `loop` y `muted`.
-- Se probaron diferentes configuraciones de reproducción automática, bucles, controles visibles y opciones de silencio para medios.
-- Se aplicaron estilos CSS básicos para organizar el contenido multimedia en la página.
-- Se exploraron buenas prácticas para accesibilidad, añadiendo descripciones alternativas a los recursos visuales y controles accesibles.
-- Finalmente, se verificó el funcionamiento de los archivos multimedia en distintos navegadores para asegurar compatibilidad.
+## 📌 Resultado:
+
+Una página web interactiva y visualmente atractiva, con elementos multimedia y navegación enriquecida.
