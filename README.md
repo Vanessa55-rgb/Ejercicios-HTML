@@ -58,7 +58,5 @@ El objetivo principal es adquirir experiencia práctica en el uso de HTML, domin
 
 ## 👨‍💻 Autor.
 
-**Vanessa Gomez Lopez**.
-Coder Cohorte 4.
+**Vanessa Gomez Lopez, Coder Cohorte 4.**
 
----# Ejercicios-HTML
