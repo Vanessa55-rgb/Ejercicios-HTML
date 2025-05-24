@@ -1,4 +1,4 @@
-# 📅 Día 2 - Estructura semántica, navegación y metadatos.
+# 📅 Día 2 - Estructura semántica, navegación y metadatos en HTML.
 
 ## Descripción.
 Durante este segundo día se mejoró la estructura del documento HTML aplicando etiquetas semánticas. Además, se trabajó con navegación interna, citas y elementos de énfasis.

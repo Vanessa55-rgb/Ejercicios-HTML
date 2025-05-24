@@ -1,4 +1,4 @@
-# 📅 Día 1 - Introducción a HTML y estructura básica.
+# 📅 Día 1 - Introducción a HTML y estructura básica en HTML.
 
 ## Descripción.
 Durante este primer día se trabajó con la estructura fundamental de un documento HTML. El objetivo fue familiarizarse con las etiquetas principales y comprender cómo organizar el contenido de una página web simple.
