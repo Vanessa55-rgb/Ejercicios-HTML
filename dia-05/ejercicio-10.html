@@ -1,0 +1,129 @@
+<!--Replica una mini página con tabla, lista, y un bloque de estilo organizado.-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Regalo celestial</title>
+<link rel="icon" href="Logo Emprendimiento Repostería Delicado Blanco Negro .png">
+<style>
+  body {
+    font-family: 'Georgia', serif;
+    background: #e6eb41;
+    color: #050505;
+    margin: 20px;
+  }
+h1 {
+    color: #0d0d0d;
+    border-bottom: 2px solid #0e0e0e;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+  h2 {
+    color: #0d0d0d;
+    border-bottom: 2px solid #0e0e0e;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+  /* Tabla */
+  .tabla-velas {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #cbd081;
+  }
+  .tabla-velas th, .tabla-velas td {
+    border: 1px solid #0d0d0d;
+    padding: 10px 15px;
+    text-align: left;
+    background: #cbd081;
+  }
+  .tabla-velas th {
+    background: #393c3e;
+    color: #fff;
+  }
+  /* Listas */
+  .lista-ordenada {
+    list-style-type: decimal;
+    margin-left: 25px;
+    color: #000000;
+  }
+  .lista-ordenada li {
+    margin: 6px 0;
+    font-weight: 600;
+  }
+  .lista-desordenada {
+    list-style-type: disc;
+    margin-left: 25px;
+    color: #060606;
+  }
+  .lista-desordenada li {
+    margin: 4px 0;
+    font-style: italic;
+  }
+  /* Lista de definición */
+  .lista-definicion dt {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 14px;
+  }
+  .lista-definicion dd {
+    margin-left: 25px;
+    color: #010101;
+    font-style: normal;
+  }
+</style>
+</head>
+<body>
+<h1>Regalo celestial.</h1>
+<img src="regalo _celestial_.png" alt="Regalo Celestial" width="300">
+<h2>Características.</h2>
+<table class="tabla-velas">
+  <tr>
+    <th rowspan="2">Producto</th>
+    <th colspan="2">Dimensiones</th>
+    <th rowspan="2">Duración (hrs)</th>
+  </tr>
+  <tr>
+    <th>Alto</th>
+    <th>Ancho</th>
+  </tr>
+  <tr>
+    <td>Vela Aromática</td>
+    <td>10 cm</td>
+    <td>6 cm</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>Vela de Cera Vegetal</td>
+    <td colspan="2">Variedad de tamaños</td>
+    <td>30-50</td>
+  </tr>
+</table>
+<h2>Pasos para hacer una vela artesanal.</h2>
+<ol class="lista-ordenada" style="font-size: 1.1em;">
+  <li>Derretir la cera a baño maría.</li>
+  <li>Agregar fragancias y colorantes naturales.</li>
+  <li>Verter la mezcla en moldes con la mecha centrada.</li>
+  <li>Dejar enfriar y endurecer completamente.</li>
+  <li>Retirar del molde y decorar si se desea.</li>
+</ol>
+<h2>Beneficios de las velas artesanales.</h2>
+<ul class="lista-desordenada" style="font-size: 1em;">
+  <li>Aromas naturales y duraderos.</li>
+  <li>Materiales biodegradables y ecológicos.</li>
+  <li>Diseños únicos y personalizados.</li>
+  <li>Ambiente cálido y relajante.</li>
+</ul>
+<h2>Glosario de términos.</h2>
+<dl class="lista-definicion" style="font-size: 0.95em;">
+  <dt>Cera Vegetal:</dt>
+  <dd>Cera derivada de plantas, ideal para velas naturales.</dd>
+  <dt>Mecha:</dt>
+  <dd>Hilo que se enciende para quemar la vela.</dd>
+  <dt>Fraganci:</dt>
+  <dd>Esencia aromática usada para perfumar la vela.</dd>
+</dl>
+</body>
+</html>

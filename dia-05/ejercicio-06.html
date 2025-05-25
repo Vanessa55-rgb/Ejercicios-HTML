@@ -1,0 +1,42 @@
+<!--Crea una lista ordenada y otra desordenada con elementos personalizados con CSS.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista ordenada y desordenada</title>
+     <style>
+    /* Lista ordenada: números azules y en negrita */
+    ol {
+      color:aqua;
+      font-weight: bold;
+    }
+    /* Lista desordenada: sin puntos y con íconos verdes */
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color:antiquewhite;
+      font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <h2>Lista ordenada y otra desordenada.</h2>
+    <h3>Pasos para conectarte:</h3>
+    <ol>
+        <li>Enciende el computador</li>
+        <li>Abre el navegador</li>
+        <li>Busca ChatGPT</li>
+    </ol>
+    <h3>Ventajas de usar esta app:</h3>
+    <ul>
+        <li>Es fácil de usar</li>
+        <li>Es rápida</li>
+        <li>Es gratuita</li>
+    </ul>
+</body>
+</html>
